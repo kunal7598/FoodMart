@@ -5,7 +5,7 @@ import "./PlaceOrder.css";
 const PlaceOrder = () => {
   const { cartTotal } = useContext(StoreContext);
   return (
-    <form action="" className="place-order">
+    <form id="order-form" className="place-order">
       <div className="order-left">
         <p className="title">Delievery Information</p>
         <div className="multi-fields">
