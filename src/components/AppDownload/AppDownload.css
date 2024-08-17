@@ -1,0 +1,34 @@
+.mobile-app {
+  /* display: flex; */
+  /* flex-direction: column; */
+  text-align: center;
+  margin: 100px 0px;
+}
+
+.mobile-app p {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.mobile-app span {
+  color: tomato;
+  font-size: 3.3rem;
+}
+
+.img-mobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: max(2vw, 10px);
+}
+
+.img-mobile img {
+  width: max(30vw, 120px);
+  max-width: 180px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mobile img:hover {
+  transform: scale(1.1);
+}
