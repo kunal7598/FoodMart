@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Cart from "./pages/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import SignPopup from "./components/SignPopup/SignPopup";
+
 const App = () => {
   const [signup, setSignup] = useState(false);
   return (
