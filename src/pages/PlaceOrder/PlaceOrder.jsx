@@ -5,7 +5,7 @@ import "./PlaceOrder.css";
 const PlaceOrder = () => {
   const { cartTotal } = useContext(StoreContext);
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
   };
 
@@ -48,7 +48,7 @@ const PlaceOrder = () => {
               <b>${cartTotal() + 10}</b>
             </div>
           </div>
-          <button>PROCEED TO PAYMENT</button>
+          <button type="Submit">PROCEED TO PAYMENT</button>
         </div>
       </div>
     </form>
